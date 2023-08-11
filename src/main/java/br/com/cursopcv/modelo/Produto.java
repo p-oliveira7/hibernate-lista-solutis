@@ -23,19 +23,13 @@ public class Produto {
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
-		// TODO Auto-generated method stub
-
 	}
 
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
-		// TODO Auto-generated method stub
-
 	}
 	public void setPreco(double preco) {
 		this.preco = preco;
-		// TODO Auto-generated method stub
-
 	}
 
 	public String getNome() {

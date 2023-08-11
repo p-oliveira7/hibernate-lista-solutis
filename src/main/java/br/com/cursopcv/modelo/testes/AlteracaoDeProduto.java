@@ -1,27 +1,15 @@
 package br.com.cursopcv.modelo.testes;
-import br.com.cursopcv.modelo.*;
+
+import br.com.cursopcv.servico.ProdutoService;
 
 public class AlteracaoDeProduto {
 
 	public static void main(String[] args) {
-		Encapsulamento repositorio = new Encapsulamento();
-
-		try {
-			repositorio.iniciarTransacao();
-			Produto produto = repositorio.acharProdutoCod(2L);
-
-			if (produto != null) {
-				produto.setPreco(345.00);
-				repositorio.transacaoCommit();
-				System.out.println("O preço foi alterado com sucesso.");
-			} else {
-				System.out.println("O produto não foi encontrado. Tente novamente");
-			}
+		try (ProdutoService produtoService = new ProdutoService()) {
+			produtoService.alterarPrecoProduto(2L, 345.00);
+			System.out.println("O preço foi alterado com sucesso.");
 		} catch (Exception e) {
-			repositorio.reverterTransacao();
 			e.printStackTrace();
-		} finally {
-			repositorio.closeEntityManager();
 		}
 	}
 }
