@@ -42,7 +42,7 @@ public class ProdutoDAO {
     }
 
     public List<Produto>listarTodos() {
-        return entityManager.createQuery("select p from Produto p", Produto.class).getResultList();
+        return entityManager.createQuery("select p from produto p", Produto.class).getResultList();
     }
 
 }

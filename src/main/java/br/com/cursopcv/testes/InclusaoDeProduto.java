@@ -1,4 +1,4 @@
-package br.com.cursopcv.modelo.testes;
+package br.com.cursopcv.testes;
 import br.com.cursopcv.servico.ProdutoService;
 
 public class InclusaoDeProduto {
