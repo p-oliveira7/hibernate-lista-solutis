@@ -4,18 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69d42d9-54f2-427d-b50d-513da2283f79" name="Changes" comment="commit inicial" />
+    <list default="true" id="c69d42d9-54f2-427d-b50d-513da2283f79" name="Changes" comment="commit inicial">
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursopcv/modelo/Encapsulamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/cursopcv/modelo/Encapsulamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursopcv/modelo/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/cursopcv/modelo/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursopcv/modelo/testes/AlteracaoDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/cursopcv/modelo/testes/AlteracaoDeProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursopcv/modelo/testes/InclusaoDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/cursopcv/modelo/testes/InclusaoDeProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/cursopcv/modelo/testes/RemocaoDeProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/cursopcv/modelo/testes/RemocaoDeProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/Encapsulamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/Encapsulamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/testes/AlteracaoDeProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/testes/AlteracaoDeProduto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/testes/InclusaoDeProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/testes/InclusaoDeProduto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/testes/RemocaoDeProduto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/cursopcv/modelo/testes/RemocaoDeProduto.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2TqYLkZMQDHcl3LJWxHkIRHjbjB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,9 +41,70 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Paulo/Desktop/hibernate-lista-solutis",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Paulo\Desktop\hibernate-lista-solutis" />
+      <recent name="C:\Users\Paulo\Desktop\hibernate-lista-solutis\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Paulo\Desktop\hibernate-lista-solutis\src\main\resources" />
+      <recent name="C:\Users\Paulo\Desktop\hibernate-lista-solutis\src\main" />
+      <recent name="C:\Users\Paulo\Desktop\hibernate-lista-solutis\src\java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.br.com.cursopcv.modelo.testes.InclusaoDeProduto">
+    <configuration name="AlteracaoDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.cursopcv.modelo.testes.AlteracaoDeProduto" />
+      <module name="ContaEstoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cursopcv.modelo.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InclusaoDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java.modelo.testes.InclusaoDeProduto" />
+      <module name="ContaEstoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java.modelo.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="br.com.cursopcv.modelo.testes.InclusaoDeProduto" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.cursopcv.modelo.testes.InclusaoDeProduto" />
+      <module name="ContaEstoque" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.cursopcv.modelo.testes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.br.com.cursopcv.modelo.testes.InclusaoDeProduto" />
+        <item itemvalue="Application.AlteracaoDeProduto" />
+        <item itemvalue="Application.InclusaoDeProduto" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
